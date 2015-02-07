@@ -1,3 +1,6 @@
-/init.el~
+*.el~
 /elpa/
 /auto-save-list/
+
+
+
