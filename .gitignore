@@ -1,6 +1,5 @@
 *.el~
 /elpa/
 /auto-save-list/
-
-
-
+/eshell
+projectile*

@@ -2,3 +2,21 @@ rbenv
 exit
 bundle
 exit
+bundle
+rspec --init
+mkdir -p features/step_definitions
+exit
+cucumber --drb
+cucumber
+cd ..
+cd ..
+cd yahoo_weather/
+cucumber
+exit
+bundle
+exit
+cucumber
+cucumber
+cucumber
+bundle
+exit

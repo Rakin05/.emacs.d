@@ -2,7 +2,11 @@
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
 
-(require-package 'solarized-theme)
+(display-battery-mode)
 
-(load-theme 'solarized-light)
+(require-package 'moe-theme)
+(require 'moe-theme-switcher)
+
+(set-face-attribute 'default nil :font "Meslo LG L DZ 15")
+
 (provide 'fk-gui)
